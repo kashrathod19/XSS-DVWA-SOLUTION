@@ -8,6 +8,7 @@
 
 # XSS (DOM) 
 ```A DOM-based cross-site scripting (XSS) attack happens when a threat actor modifies the document object model (DOM) environment in the victim's browser. So, while the HTML itself doesn't change, the code on the client side executes differently.```
+
 # LOW 
 ```Payload-<script>alert('BugBot19 was here')</script>```
 
@@ -29,7 +30,7 @@
 ```reflected XSS is a kind of cross-site scripting attack, where malicious script is injected into websites that are trusted or otherwise benign. Typically, the injection occurs when an unsuspecting user clicks on a link that is specifically designed to attack the website they are visiting.```
 
 # LOW/MEDIUM/HIGH
-``` During the research phase i have found out the one of the payload can be used in all the three levels the payload is mentioned below```
+``` During the research phase, i found out that one of the payloads can be used in all three levels the payload is mentioned below```
 ```Payload-<svg onload=alert('BugBot19 was here')>```
 ![image](https://github.com/kashrathod19/XSS-DVWA-SOLUTION/assets/54115061/ec196e0c-8285-4971-a7c4-89ac9ce4bb1f)
 ![image](https://github.com/kashrathod19/XSS-DVWA-SOLUTION/assets/54115061/3b4da94f-3ead-4d67-9798-255ca536a85c)
@@ -37,5 +38,19 @@
 ![image](https://github.com/kashrathod19/XSS-DVWA-SOLUTION/assets/54115061/2f7c4eaa-1ac4-4e42-b7af-9d5a05bed13b)
 ![image](https://github.com/kashrathod19/XSS-DVWA-SOLUTION/assets/54115061/2c729f4c-633b-4080-a44e-fda654eaccf4)
 ![image](https://github.com/kashrathod19/XSS-DVWA-SOLUTION/assets/54115061/fe80185d-36bf-4996-bbd6-871cdb1882ed)
+
+# XSS (Stored)
+```Stored XSS, also known as persistent XSS, is the more damaging of the two. It occurs when a malicious script is injected directly into a vulnerable web application. Reflected XSS involves the reflecting of a malicious script off of a web application, onto a user's browser.```
+
+# Low
+```Payload - <script>alert(document.domain)</script>```
+![image](https://github.com/kashrathod19/XSS-DVWA-SOLUTION/assets/54115061/c91a9a4f-08c1-4a1e-8d05-a6c1fc3806a4)
+![image](https://github.com/kashrathod19/XSS-DVWA-SOLUTION/assets/54115061/cfbe180d-69b7-4b29-8cd9-7b05d0740a87)
+
+# Medium
+```Payload - <img src=x onerror=alert(document.cookie)>```
+Change the text 'size' and 'max length'
+![image](https://github.com/kashrathod19/XSS-DVWA-SOLUTION/assets/54115061/a2325489-0375-460d-8087-eadcc9afefc5)
+![image](https://github.com/kashrathod19/XSS-DVWA-SOLUTION/assets/54115061/24bda2e6-9a38-4d5a-b058-590593fee838)
 
 
