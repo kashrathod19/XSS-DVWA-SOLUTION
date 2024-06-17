@@ -53,4 +53,10 @@ Change the text 'size' and 'max length'
 ![image](https://github.com/kashrathod19/XSS-DVWA-SOLUTION/assets/54115061/a2325489-0375-460d-8087-eadcc9afefc5)
 ![image](https://github.com/kashrathod19/XSS-DVWA-SOLUTION/assets/54115061/24bda2e6-9a38-4d5a-b058-590593fee838)
 
+# High
+```Payload - <body onload=alert('Bugbot19')>```
+Change the text 'size' and 'max length'
+![image](https://github.com/kashrathod19/XSS-DVWA-SOLUTION/assets/54115061/f2ce8a4a-16ae-4ddd-b177-7c2912ee58f9)
+![image](https://github.com/kashrathod19/XSS-DVWA-SOLUTION/assets/54115061/4e6ac017-3971-4c7c-816d-541c333c8dd2)
+
 
