@@ -27,3 +27,8 @@
 
 # XSS (Reflected)
 ```reflected XSS is a kind of cross-site scripting attack, where malicious script is injected into websites that are trusted or otherwise benign. Typically, the injection occurs when an unsuspecting user clicks on a link that is specifically designed to attack the website they are visiting.```
+
+# LOW/MEDIUM/HIGH
+```During the research phase i have found out the one of the payload can be used in all the three levels```
+```the payload is mentioned below```
+```Payload-<svg onload=alert('BugBot19 was here')>```
