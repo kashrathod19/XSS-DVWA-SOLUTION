@@ -6,4 +6,7 @@
 
 ![image](https://github.com/kashrathod19/XSS-DVWA-SOLUTION/assets/54115061/949deaaa-2f13-4bb8-b2fd-6dfe8af11e02)
 
-# XSS (DOM) (LOW)
+# XSS (DOM) 
+```A DOM-based cross-site scripting (XSS) attack happens when a threat actor modifies the document object model (DOM) environment in the victim's browser. So, while the HTML itself doesn't change, the code on the client side executes differently.```
+# LOW 
+![image](https://github.com/kashrathod19/XSS-DVWA-SOLUTION/assets/54115061/b2e8392c-5c65-4d06-ab00-6385f0afbc15)
