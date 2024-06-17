@@ -29,6 +29,13 @@
 ```reflected XSS is a kind of cross-site scripting attack, where malicious script is injected into websites that are trusted or otherwise benign. Typically, the injection occurs when an unsuspecting user clicks on a link that is specifically designed to attack the website they are visiting.```
 
 # LOW/MEDIUM/HIGH
-```During the research phase i have found out the one of the payload can be used in all the three levels```
-```the payload is mentioned below```
+``` During the research phase i have found out the one of the payload can be used in all the three levels the payload is mentioned below```
 ```Payload-<svg onload=alert('BugBot19 was here')>```
+![image](https://github.com/kashrathod19/XSS-DVWA-SOLUTION/assets/54115061/ec196e0c-8285-4971-a7c4-89ac9ce4bb1f)
+![image](https://github.com/kashrathod19/XSS-DVWA-SOLUTION/assets/54115061/3b4da94f-3ead-4d67-9798-255ca536a85c)
+![image](https://github.com/kashrathod19/XSS-DVWA-SOLUTION/assets/54115061/3125143c-6709-4c8a-90e6-2312db962a27)
+![image](https://github.com/kashrathod19/XSS-DVWA-SOLUTION/assets/54115061/2f7c4eaa-1ac4-4e42-b7af-9d5a05bed13b)
+![image](https://github.com/kashrathod19/XSS-DVWA-SOLUTION/assets/54115061/2c729f4c-633b-4080-a44e-fda654eaccf4)
+![image](https://github.com/kashrathod19/XSS-DVWA-SOLUTION/assets/54115061/fe80185d-36bf-4996-bbd6-871cdb1882ed)
+
+
